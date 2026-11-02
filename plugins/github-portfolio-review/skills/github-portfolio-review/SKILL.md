@@ -1,9 +1,23 @@
 ---
 name: github-portfolio-review
+version: 1.0.3
 description: Review a GitHub profile or repository as professional portfolio evidence and suggest prioritized improvements. Use for GitHub presentation, case studies, reusable examples, attribution, licensing, and claim verification; use a code-review skill for code correctness alone.
 ---
 
 # GitHub Portfolio Review
+
+## Purpose in plain English
+
+This skill helps you review a GitHub profile or project and explain how to present its strongest evidence clearly.
+
+## How to explain the result
+
+For a client-facing explanation, use ordinary words and the requested format. Explain unfamiliar abbreviations. Name what each number counts and explain its practical meaning. Keep internal identifiers out of the explanation. Keep necessary technical details in the working steps and technical references.
+
+## Following the process
+
+Use the process below. Preserve its conditions, commands, checks, and approval rules. Use information the user already supplied. Follow the existing questions or stopping rules when required information is missing.
+
 
 Review the GitHub profile or repository the user supplies and recommend specific ways to make the work clearer, more credible, and easier for others to evaluate or reuse. This is a read-only review. Do not edit repositories or profile settings, change pins, open pull requests, or publish content.
 

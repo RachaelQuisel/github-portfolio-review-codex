@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "repository": "RachaelQuisel/github-portfolio-review-codex",
+  "packages": [
+    {
+      "name": "github-portfolio-review",
+      "root": "plugins/github-portfolio-review",
+      "version": "1.0.3",
+      "manifests": [
+        "plugins/github-portfolio-review/plugin.json",
+        "plugins/github-portfolio-review/.codex-plugin/plugin.json"
+      ],
+      "skills": [
+        "plugins/github-portfolio-review/skills/github-portfolio-review/SKILL.md"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "path": "plugins/github-portfolio-review/skills/github-portfolio-review/SKILL.md",
+      "version": "1.0.3",
+      "sha256": "9736359f884f630373870b58d2527acdbfb283cb4ffc7207071e0cd3cb2bca28",
+      "source": "plugins/github-portfolio-review/skills/github-portfolio-review/SKILL.md",
+      "guide": "plugins/github-portfolio-review/skills/github-portfolio-review/README.md"
+    }
+  ],
+  "copies": []
+}
