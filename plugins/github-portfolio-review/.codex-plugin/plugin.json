@@ -1,6 +1,6 @@
 {
   "name": "github-portfolio-review",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Review GitHub projects as credible professional portfolio evidence.",
   "skills": "./skills/",
   "interface": {
