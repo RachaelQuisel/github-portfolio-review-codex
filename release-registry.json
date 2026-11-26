@@ -8,6 +8,7 @@
       "version": "1.0.4",
       "manifests": [
         "plugins/github-portfolio-review/plugin.json",
+        "plugins/github-portfolio-review/.claude-plugin/plugin.json",
         "plugins/github-portfolio-review/.codex-plugin/plugin.json"
       ],
       "skills": [
