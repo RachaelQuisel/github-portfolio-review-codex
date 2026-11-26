@@ -15,6 +15,15 @@ codex plugin marketplace add RachaelQuisel/github-portfolio-review-codex
 codex plugin add github-portfolio-review@github-review
 ```
 
+In a terminal with Claude Code installed:
+
+```sh
+claude plugin marketplace add RachaelQuisel/github-portfolio-review-codex
+claude plugin install github-portfolio-review@github-portfolio-review
+```
+
+In Claude Code, run `/github-portfolio-review:github-portfolio-review` with a profile or repository URL. The Claude package passes `claude plugin validate` and installs from a local copy of this repository. The review has not yet been tested in a Claude conversation.
+
 ## Use
 
 Give Codex a public profile or repository URL and invoke the skill:
@@ -29,4 +38,4 @@ The review links to evidence, separates verified facts from repository claims an
 
 ## Package
 
-The marketplace manifest is at `.agents/plugins/marketplace.json`; the plugin manifest and skill are under `plugins/github-portfolio-review/`.
+The Codex marketplace manifest is at `.agents/plugins/marketplace.json`. The Claude Code marketplace manifest is at `.claude-plugin/marketplace.json`. The plugin manifests and skill are under `plugins/github-portfolio-review/`.
